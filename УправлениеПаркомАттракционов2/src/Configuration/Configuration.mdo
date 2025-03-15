@@ -52,9 +52,11 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.ПосещениеАттракционов</documents>
   <documents>Document.ПродажаБилета</documents>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
   <enums>Enum.ВидНоменклатуры</enums>
   <reports>Report.ПродажиПоАттракционам</reports>
   <reports>Report.СтатистикаПосещений</reports>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.АктивныеПосещения</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>
