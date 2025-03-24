@@ -17,6 +17,12 @@
 				<formatIndex>1</formatIndex>
 			</column>
 		</columnsItem>
+		<columnsItem>
+			<index>1</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
 	</columns>
 	<columns>
 		<id>2abc1ce8-cdfb-47e3-995d-9383aa682f0b</id>
@@ -30,7 +36,7 @@
 		<columnsItem>
 			<index>1</index>
 			<column>
-				<formatIndex>2</formatIndex>
+				<formatIndex>3</formatIndex>
 			</column>
 		</columnsItem>
 	</columns>
@@ -46,19 +52,19 @@
 		<columnsItem>
 			<index>1</index>
 			<column>
-				<formatIndex>3</formatIndex>
+				<formatIndex>4</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>2</index>
 			<column>
-				<formatIndex>4</formatIndex>
+				<formatIndex>5</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>3</index>
 			<column>
-				<formatIndex>5</formatIndex>
+				<formatIndex>6</formatIndex>
 			</column>
 		</columnsItem>
 	</columns>
@@ -75,7 +81,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>6</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -100,19 +106,19 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Аттракцион:	</v8:content>
+							<v8:content>Тип билета:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
-					<parameter>Аттракцион</parameter>
+					<f>9</f>
+					<parameter>Номенклатура</parameter>
 				</c>
 			</c>
 		</row>
@@ -124,7 +130,31 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>7</f>
+					<f>10</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество посещений:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>КоличествоПосещений</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>6</index>
+		<row>
+			<columnsID>956c9745-9417-493c-852d-c2d33673ae8b</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -135,15 +165,15 @@
 			</c>
 			<c>
 				<c>
-					<f>9</f>
+					<f>11</f>
 					<parameter>СуммаДокумента</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<height>6</height>
-	<vgRows>6</vgRows>
+	<height>7</height>
+	<vgRows>7</vgRows>
 	<merge>
 		<r>4</r>
 		<c>2</c>
@@ -164,7 +194,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
-			<endRow>5</endRow>
+			<endRow>6</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -174,10 +204,13 @@
 		<width>16</width>
 	</format>
 	<format>
+		<width>193</width>
+	</format>
+	<format>
 		<width>640</width>
 	</format>
 	<format>
-		<width>128</width>
+		<width>199</width>
 	</format>
 	<format>
 		<width>144</width>
@@ -201,6 +234,18 @@
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
+		<autoIndent>0</autoIndent>
+	</format>
+	<format>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Block</textPlacement>
+		<format>
+			<v8:item>
+				<v8:lang>#</v8:lang>
+				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
+			</v8:item>
+		</format>
 		<autoIndent>0</autoIndent>
 	</format>
 	<format>
